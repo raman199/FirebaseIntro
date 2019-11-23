@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1092031277806-su5cfud7kdlfotbq7gb9fdiq6mre43r5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1092031277806-su5cfud7kdlfotbq7gb9fdiq6mre43r5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBA1BomwQEWIHPs0kXY9N0ZXEByGOVOddo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1092031277806</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ca.centennialcollege.XcodeDatabase</string>
+	<key>PROJECT_ID</key>
+	<string>xcodedatabase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>xcodedatabase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1092031277806:ios:d0e14e2edaa80c761b61ff</string>
+	<key>DATABASE_URL</key>
+	<string>https://xcodedatabase.firebaseio.com</string>
+</dict>
+</plist>

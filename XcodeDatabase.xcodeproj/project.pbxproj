@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,10 @@
 		041FE8AB2386EDEE004CD79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FE8A92386EDEE004CD79F /* Main.storyboard */; };
 		041FE8AD2386EDF0004CD79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041FE8AC2386EDF0004CD79F /* Assets.xcassets */; };
 		041FE8B02386EDF0004CD79F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FE8AE2386EDF0004CD79F /* LaunchScreen.storyboard */; };
+		0441F9E22388C4ED009C79F1 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441F9E12388C4ED009C79F1 /* secondViewController.swift */; };
+		0441F9E42388C9D5009C79F1 /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441F9E32388C9D5009C79F1 /* dataViewController.swift */; };
+		04562A522386FF90007DC8DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04562A512386FF90007DC8DC /* GoogleService-Info.plist */; };
+		F78CCE0096B69FF5E94A8681 /* Pods_XcodeDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FDA3CB84FD48B96962EEB5 /* Pods_XcodeDatabase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,12 @@
 		041FE8AC2386EDF0004CD79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041FE8AF2386EDF0004CD79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041FE8B12386EDF0004CD79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0441F9E12388C4ED009C79F1 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		0441F9E32388C9D5009C79F1 /* dataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
+		04562A512386FF90007DC8DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7208BFE6A5E482A956846D12 /* Pods-XcodeDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeDatabase.debug.xcconfig"; path = "Target Support Files/Pods-XcodeDatabase/Pods-XcodeDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		C4FDA3CB84FD48B96962EEB5 /* Pods_XcodeDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcodeDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D562B317289F43098A9817E0 /* Pods-XcodeDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeDatabase.release.xcconfig"; path = "Target Support Files/Pods-XcodeDatabase/Pods-XcodeDatabase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78CCE0096B69FF5E94A8681 /* Pods_XcodeDatabase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				041FE8A42386EDEE004CD79F /* XcodeDatabase */,
 				041FE8A32386EDEE004CD79F /* Products */,
+				44F5A4476A914B099247A598 /* Pods */,
+				343B73C5980A2F3E4D673A2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +72,29 @@
 				041FE8A92386EDEE004CD79F /* Main.storyboard */,
 				041FE8AC2386EDF0004CD79F /* Assets.xcassets */,
 				041FE8AE2386EDF0004CD79F /* LaunchScreen.storyboard */,
+				04562A512386FF90007DC8DC /* GoogleService-Info.plist */,
 				041FE8B12386EDF0004CD79F /* Info.plist */,
+				0441F9E12388C4ED009C79F1 /* secondViewController.swift */,
+				0441F9E32388C9D5009C79F1 /* dataViewController.swift */,
 			);
 			path = XcodeDatabase;
+			sourceTree = "<group>";
+		};
+		343B73C5980A2F3E4D673A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4FDA3CB84FD48B96962EEB5 /* Pods_XcodeDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44F5A4476A914B099247A598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7208BFE6A5E482A956846D12 /* Pods-XcodeDatabase.debug.xcconfig */,
+				D562B317289F43098A9817E0 /* Pods-XcodeDatabase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041FE8B42386EDF0004CD79F /* Build configuration list for PBXNativeTarget "XcodeDatabase" */;
 			buildPhases = (
+				62B5755A94B4867E9C212A55 /* [CP] Check Pods Manifest.lock */,
 				041FE89E2386EDEE004CD79F /* Sources */,
 				041FE89F2386EDEE004CD79F /* Frameworks */,
 				041FE8A02386EDEE004CD79F /* Resources */,
+				F36AC7792471309FDF4FBA6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041FE8B02386EDF0004CD79F /* LaunchScreen.storyboard in Resources */,
+				04562A522386FF90007DC8DC /* GoogleService-Info.plist in Resources */,
 				041FE8AD2386EDF0004CD79F /* Assets.xcassets in Resources */,
 				041FE8AB2386EDEE004CD79F /* Main.storyboard in Resources */,
 			);
@@ -130,12 +166,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62B5755A94B4867E9C212A55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XcodeDatabase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36AC7792471309FDF4FBA6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XcodeDatabase/Pods-XcodeDatabase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XcodeDatabase/Pods-XcodeDatabase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XcodeDatabase/Pods-XcodeDatabase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		041FE89E2386EDEE004CD79F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0441F9E42388C9D5009C79F1 /* dataViewController.swift in Sources */,
 				041FE8A82386EDEE004CD79F /* ViewController.swift in Sources */,
+				0441F9E22388C4ED009C79F1 /* secondViewController.swift in Sources */,
 				041FE8A62386EDEE004CD79F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +360,7 @@
 		};
 		041FE8B52386EDF0004CD79F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7208BFE6A5E482A956846D12 /* Pods-XcodeDatabase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +379,7 @@
 		};
 		041FE8B62386EDF0004CD79F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D562B317289F43098A9817E0 /* Pods-XcodeDatabase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
